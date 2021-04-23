@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/system/bin/sh
 # BY Shenlhz
+# Adapted by Xayah
 
 ./bin/mkdtimg dump dtbo.img -b dtb
 for i in `find dtb.*`; do
